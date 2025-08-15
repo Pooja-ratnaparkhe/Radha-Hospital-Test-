@@ -87,6 +87,7 @@ public class PatientController {
 		
 		Patient saved = patientRepository.save(patient2);
 		
+		 return saved;
 		
 		return  ResponseEntity.ok(saved);
 		
